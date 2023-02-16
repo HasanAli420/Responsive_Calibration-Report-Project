@@ -1,0 +1,75 @@
+/* common styling ********** */
+
+* , ::after , ::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.gap-2{
+    gap: 20px;
+}
+
+
+
+/* text size *********************** */
+.text-sm{
+    font-size: 15px;
+}
+
+.text-md{
+    font-size: 16px;
+}
+
+.text-xl{
+    font-size: 18px;
+}
+
+.text-lg{
+    font-size: 22px;
+}
+/* text size *********************** */
+
+
+.icon-width{
+    width: 1.35rem !important;
+    margin-right: 5px;
+}
+
+
+
+
+/* color ********************** */
+
+.gradien-color{
+    background: linear-gradient(90deg, #7D4EF2 -5.94%, #E96DCB 67.38%, #EB616D 125.63%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+/* color ********************** */
+
+
+
+
+
+
+
+
